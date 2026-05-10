@@ -39,6 +39,7 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
             max-width: 400px;
             width: 90%;
+            border: 1px solid #334155;
         }
         .profile-img {
             width: 110px;
@@ -46,62 +47,79 @@
             border-radius: 50%;
             border: 3px solid #22c55e;
             margin-bottom: 20px;
+            object-fit: cover;
         }
         h1 {
-            font-size: 26px;
+            font-size: 28px;
             margin: 10px 0;
+            color: #ffffff;
         }
-        p {
+        .sub-text {
             font-size: 16px;
             color: #94a3b8;
             margin-bottom: 25px;
+            line-height: 1.6;
         }
         .btn {
             display: block;
-            background: #22c55e;
+            background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
             color: white;
             text-decoration: none;
-            padding: 15px;
+            padding: 18px;
             border-radius: 12px;
             font-weight: bold;
-            font-size: 18px;
-            transition: transform 0.2s;
+            font-size: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(34, 197, 94, 0.3);
         }
         .btn:hover {
-            transform: scale(1.03);
-            background: #16a34a;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(34, 197, 94, 0.4);
         }
         .footer {
-            margin-top: 30px;
-            font-size: 13px;
+            margin-top: 35px;
+            padding-top: 20px;
+            border-top: 1px solid #334155;
+            font-size: 14px;
+            color: #64748b;
+        }
+        .kunal-ads-wrapper {
+            margin-top: 10px;
         }
         .kunal-ads {
-            color: #38bdf8; /* Attractive Light Blue */
+            color: #fbbf24; /* Attractive Gold/Yellow color */
             text-decoration: none;
-            font-weight: bold;
-            border: 1px dashed #38bdf8;
-            padding: 4px 8px;
-            border-radius: 5px;
+            font-weight: 800;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+            padding: 5px 12px;
+            border: 2px solid #fbbf24;
+            border-radius: 50px;
+            display: inline-block;
             transition: all 0.3s;
         }
         .kunal-ads:hover {
-            background: #38bdf8;
+            background: #fbbf24;
             color: #1e293b;
+            box-shadow: 0 0 15px rgba(251, 191, 36, 0.5);
         }
     </style>
 </head>
 <body>
 
 <div class="card">
-    <img src="https://via.placeholder.com/110" alt="Logo" class="profile-img">
+    <img src="https://via.placeholder.com/110" alt="ગુજરાતી Trader" class="profile-img">
     
     <h1>ગુજરાતી Trader</h1>
-    <p>સ્ટોક માર્કેટમાં દરરોજ પ્રોફિટ મેળવવા માટે અમારી ચેનલ જોઈન કરો.</p>
+    <p class="sub-text">શેરબજારમાં દરરોજ પ્રોફિટ મેળવવા અને સચોટ ટ્રેડિંગ ટિપ્સ માટે આજે જ અમારી ઓફિશિયલ ચેનલ જોઈન કરો.</p>
     
-    <a href="https://t.me/+jE7sEbzR23gwM2U1" class="btn">ચેનલમાં જોડાવા માટે વિનંતી કરો</a>
+    <a href="https://t.me/+jE7sEbzR23gwM2U1" class="btn">ચેનલમાં જોડાવા વિનંતી કરો</a>
     
     <div class="footer">
-        Ads managed by <a href="https://t.me/+jE7sEbzR23gwM2U1" class="kunal-ads">Kunal Ads</a>
+        <div>Ads managed by</div>
+        <div class="kunal-ads-wrapper">
+            <a href="https://t.me/+jE7sEbzR23gwM2U1" class="kunal-ads">KUNAL ADS</a>
+        </div>
     </div>
 </div>
 
